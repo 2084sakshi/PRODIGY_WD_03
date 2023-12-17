@@ -1,0 +1,133 @@
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set background color and center content */
+body {
+  /*background-color: #f2f2f2;*/
+  background-color:black;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style the section container */
+.section {
+  text-align: center;
+}
+
+/* Style the heading */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.9rem;
+}
+
+/* Style the container for the cells */
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10;
+  margin-bottom: 1.2rem;
+ /* margin:5px;*/
+}
+
+/* Style the individual cells */
+.cell {
+  background-color: #fff;
+  color:black;
+  border: 2px solid black;
+  height: 100px;
+  width:100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+/* Style the status text */
+.status {
+  font-size: 1.6rem;
+  margin: 1.6rem;
+}
+
+/* Style the restart button */
+.restart {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+ /* background-color: #007bff;*/
+ background-color:white;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.restart:hover {
+  /*background-color: #0056b3;*/
+    background-color:grey;
+    color:aliceblue
+}
+
+/* Media query for iPad devices */
+@media screen and (max-width: 1024px) {
+  /* Adjust the font size and cell dimensions for iPads */
+  h1 {
+    font-size: 3.6rem;
+    margin:2.5rem;
+  }
+  
+  .cell {
+    font-size: 4rem;
+    height: 140px;
+    width: 140px;
+  }
+  
+  .status {
+    font-size: 2.7rem;
+    margin: 2.4rem;
+  }
+  
+  .restart {
+    font-size: 2.5rem;
+    padding: 1rem 1rem;
+  }
+}
+
+/* Add media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  /* Adjust the grid layout for smaller screens */
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Adjust the font size for smaller screens */
+  h1 {
+      font-size:3rem;
+  }
+  
+  .cell {
+      font-size: 2.5rem;
+      height: 110px;
+      width: 110px;
+      margin:1px;
+  }
+  
+  .status {
+      font-size: 2rem;
+      margin: 2rem;
+  }
+  
+  .restart {
+      font-size: 2rem;
+      padding: 1rem 1rem;
+  }
+}
