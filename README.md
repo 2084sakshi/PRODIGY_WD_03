@@ -4,7 +4,7 @@ Welcome to my Tic Tac Toe application, the result of the third task in my Prodig
 
 ## Overview
 
-This project is a classic Tic Tac Toe game built using [insert technologies/libraries/frameworks used, e.g., HTML, CSS, JavaScript].
+This project is a classic Tic Tac Toe game built using HTML, CSS, JavaScript.
 
 ## Features
 
@@ -15,7 +15,7 @@ This project is a classic Tic Tac Toe game built using [insert technologies/libr
 
 ## Demo
 
-Explore the live demo: [Tic Tac Toe Demo](#insert-live-demo-link-here)
+Explore the live demo: https://2084sakshi.github.io/PRODIGY_WD_03/
 
 ## Getting Started
 
